@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="/css/index.css">
+<link rel="stylesheet" href="css/entrada.css">
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <ul class="menu">
+
+        <li title="home"><a href="login.htm" class="menu-button home">menu</a></li>
+
+        <li title="Pesquisar"><a href="index.htm" class="search">Pesquisar</a></li>
+        <li title="Entrada"><a href="entrada.htm" class="pencil">Entrada</a></li>
+        <li title="Saida"><a href="saida.htm" class="fas fa-backward">Saida</a></li>
+        <li title="Usuarios"><a href="cadastro.htm" class='fas fa-portrait'>Cadastro</a></li>
+        <li title="Relatorios"><a href="#" class="fas fa-align-center">Relatorios</a></li>
+        <li title=" E-mail"><a href="email.htm" class="contact">Relatorios</a></li>
+    </ul>
+</head>
+
+<body>
+    <div id="qpage">
+        <form action="#" method="POST">
+            <fieldset>
+                <p>
+                <div class="campo">
+                    <label for="produto">
+                        <h1>Cadastro de Produtos</h1>
+                    </label>
+                    <input type="number" name="qtd" id="qtd" placeholder="Codigo">
+                    <input id="nome_cad" name="nome_cad" required="required" type="text"
+                        placeholder="Nome do produto" />
+                </div>
+                <div class="campo">
+                    <input type="number" name="qtd" id="qtd" placeholder="Quantidade">
+                </div>
+                </p>
+                <p>
+                    <label class="checkbox">
+                        <input type="radio" name="tipo" value="novo">Produto Novo
+                    </label><br>
+                    <label class="checkbox">
+                        <input type="radio" name="tipo" value="estoque">Editar cadastro
+                    </label>
+                </p>
+                <p>
+                    <input type="submit" id="bt" href="#" class="botao submit">
+                </p>
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>
